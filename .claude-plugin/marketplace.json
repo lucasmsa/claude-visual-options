@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lucasmsa-visual-options",
+  "description": "Render three or four real candidates at a visual fork and let the user pick.",
+  "owner": {
+    "name": "Lucas Moreira"
+  },
+  "plugins": [
+    {
+      "name": "visual-options",
+      "description": "Before Claude implements any visual choice, it publishes a private artifact rendering three or four candidates on the project's real content, then asks the user to pick.",
+      "author": {
+        "name": "Lucas Moreira"
+      },
+      "category": "developer-tools",
+      "source": "./"
+    }
+  ]
+}

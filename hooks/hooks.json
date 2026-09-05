@@ -1,0 +1,39 @@
+{
+  "description": "UserPromptSubmit hook: once per session, inject the standing instruction to run /visual-options at a visual fork. PreCompact re-arms it.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/visual-options-declaration.py\"",
+            "timeout": 10,
+            "statusMessage": "Visual Options declaration"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "auto",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/visual-options-declaration.py\" --rearm",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "manual",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/visual-options-declaration.py\" --rearm",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
