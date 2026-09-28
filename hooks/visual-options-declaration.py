@@ -27,7 +27,10 @@ REMINDER = (
     "At any visual fork in UI work (typefaces, palette, layout, component or chart "
     "style, spacing, icons, rendering idiom, empty states), run /visual-options "
     "first: publish an artifact rendering three or four candidates on the real "
-    "content, then ask with AskUserQuestion pointing at the link. Serve it on "
+    "content, then ask with AskUserQuestion pointing at the link. For an identity "
+    "piece (logo, icon, hero, illustration, animation), the same question offers the "
+    "user's own hand: they make it, they sketch and you finish, or you draft an "
+    "editable file they retouch. Serve it on "
     "localhost too, so the link always opens. Say in one clause when you skip it "
     "and why. "
 )

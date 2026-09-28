@@ -22,7 +22,14 @@ real thing, it takes one click.
 ## What it fires on
 
 Typefaces, palettes, layout, component and chart styles, spacing systems, icon sets, rendering
-idioms, empty states. Anything where "how should this look" has more than one defensible answer.
+idioms, empty states, logos, heroes, motion. Anything where "how should this look" has more than
+one defensible answer.
+
+For pieces that carry identity (logo, app icon, hero, illustration, lettering, a signature
+animation), the choice also offers your own hand: you make it from a brief with the exact canvas
+and drop point, you sketch and Claude finishes while keeping your line, or Claude drafts an
+editable source you retouch. Until a hand-made piece arrives, the build uses a visible
+placeholder, never a generated stand-in.
 
 It stays quiet when a design file or an existing design system already settles the choice, when
 you pinned the direction in words, or when the change is a one-line tweak.
